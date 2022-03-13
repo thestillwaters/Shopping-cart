@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Cart</title>    
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+      <header>
+          <div class="d-flex justify-content-around">
+              <div></div>
+              <div>
+                <button class="cartInfo--desktop ">
+                    My Cart(<span class="cart--item--total"></span>)            
+                </button>
+                <ul class="cart--desktop ">
+                    <li class="row cart--item">
+                        <div class="col-sm-6">
+                            <img src="" class="cart--item--img" alt="tee">
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="row">
+                                <h5 class="cart--item--itemName"></h5>
+                            </div>
+                            <div class="row">
+                                <span class="cart--item--count">  </span><span >x&#36;</span>
+                                <b class="cart--item--price"> </b>
+                            </div>
+                            <div class="row">
+                                <span>SIZE:</span>
+                                <span class="cart--item--size"></span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="row cart--item">
+                        <div class="col">
+                            <img src="" class="cart--item--img" alt="tee">
+                        </div>
+                        <div class="col">
+                            <div class="row">
+                                <h5 class="cart--item--itemName"></h5>
+                            </div>
+                            <div class="row">
+                                <span class="cart--item--count">x</span><span >x&#36;</span>
+                                <b class="cart--item--price"> </b>
+                            </div>
+                            <div class="row">
+                                <span>SIZE:</span>
+                                <span class="cart--item--size"></span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="row cart--item">
+                        <div class="col-sm-6">
+                            <img src="" class="cart--item--img" alt="tee">
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="row">
+                                <h5 class="cart--item--itemName"></h5>
+                            </div>
+                            <div class="row">
+                                <span class="cart--item--count">x</span><span >x&#36;</span>
+                                <b class="cart--item--price"> </b>
+                            </div>
+                            <div class="row">
+                                <span>SIZE:</span>
+                                <span class="cart--item--size"></span>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+              </div>                
+            </div>
+            <div class="d-flex justify-content-around">
+                <div></div>
+                <div>
+                    <button class="cartInfo--mobile ">
+                        <div class="">
+                            <i class="fa fa-shopping-cart"></i>
+                            <span class="cart--mobile--item--total"></span>
+                        </div>
+                    </button>
+                    <ul class="cart--mobile ">
+                        <li class="row cart--mobile--item">
+                            <div class="col-md-6">
+                                <img src="" class="cart--mobile--item--img" alt="tee">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="row">
+                                    <h5 class="cart--mobile--item--itemName"></h5>
+                                </div>
+                                <div class="row">
+                                    <span class="cart--mobile--item--count"></span><span >x&#36;</span>
+                                    <b class="cart--mobile--item--price"> </b>
+                                </div>
+                                <div class="row">
+                                    <span>SIZE:</span>
+                                    <span class="cart--mobile--item--size"></span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="row cart--mobile--item">
+                            <div class="col-md-6">
+                                <img src="" class="cart--mobile--item--img" alt="tee">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="row">
+                                    <h5 class="cart--mobile--item--itemName"></h5>
+                                </div>
+                                <div class="row">
+                                    <span class="cart--mobile--item--count"></span><span >x&#36;</span>
+                                    <b class="cart--mobile--item--price"> </b>
+                                </div>
+                                <div class="row">
+                                    <span>SIZE:</span>
+                                    <span class="cart--mobile--item--size"></span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class=" cart--mobile--item">
+                            <div class="col-sm-6">
+                                <img src="" class="cart--mobile--item--img" alt="tee">
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="row">
+                                    <h4 class="cart--mobile--item--itemName"></h4>
+                                </div>
+                                <div class="row">
+                                    <span class="cart--mobile--item--count"></span><span >x&#36;</span>
+                                    <b class="cart--mobile--item--price"> </b>
+                                </div>
+                                <div class="row">
+                                    <span>SIZE:</span>
+                                    <span class="cart--mobile--item--size"></span>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div> 
+    </header>
+    <div class="container">
+        <div class="row item">
+            <div class="col-md-6">
+                <img src="img/classic-tee.jpg" class="item--img" id="item-img" alt="tee">
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-5">
+                <div >
+                    <h4 class="item--itemName"></h4>
+                </div>
+                <div >
+                    <span >&#36;</span>
+                    <b class="item--price"> </b>
+                </div>
+                <div >
+                    <p class="item--desription"></p>
+                </div>
+                <div >
+                    <span class="item--size--title">SIZE</span>
+                    <span class="item--star">*</span>
+                    <span class="choseSize"></span>
+                </div>
+                <div >
+                    <div class="item--size"></div>
+                </div>
+                <div >
+                    <div> 
+                        <button class="item--add border border-dark">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+        </div>        
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- script js -->
+    <script src="js/app.js"></script>
+    </body>
+</html>

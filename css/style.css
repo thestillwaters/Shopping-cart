@@ -1,0 +1,72 @@
+header{
+    background-color: #f6f6f6;  
+}
+.item--itemName .item--price{
+    color:#222222;
+}
+.item--desription, .item--size--title,.choseSize{
+    color:#888888;
+    padding:10px
+}
+
+.item--star{
+    color:#C90000
+}
+.item--size> *{
+    border:#888888;    
+    background-color: white;
+    /* margin: 10px;
+    padding:10px */
+}
+.item--add{
+    border: #222222;
+    background-color: white;
+    padding:10px;
+    transition: background-color 0.2s ease;
+}
+.item--add:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+  }
+.desktop, .mobile{
+    float:right
+}
+.desktop{
+    position: relative;
+    display: inline-block;
+}
+
+/* when screen width less than 811px, button for desktop gone */
+@media only screen and (max-width: 810px) {
+    .cartInfo--desktop {
+      display: none;
+    }
+}
+/* when screen width more than 811px, button for mobile gone */
+@media only screen and (min-width: 811px) {
+    .cartInfo--mobile {
+      display: none;
+    }
+}
+/* On desktop, Mini Cart is shown when the mouse hovering */
+.cart--desktop{
+    display: none;
+}
+.cartInfo--desktop:hover + .cart--desktop {
+    cursor: pointer;
+    display: block;  
+    position: absolute;
+    background-color: #f9f9f9;
+    z-index: 1;
+  }
+/*On mobile devices, Mini Cart is shown when the user taps “My Cart”  */
+.cart--mobile{
+    display: none; 
+}
+.cartInfo--mobile:focus + .cart--mobile {
+    cursor: pointer;
+    display: block;      
+    position: absolute; 
+    background-color: #f9f9f9;
+    z-index: 1;
+  }
